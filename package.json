@@ -1,0 +1,34 @@
+{
+  "name": "github-tutorial",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://mariiamlyuzan.github.io/github-tutorial/",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /github-tutorial/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariiamlyuzan/github-tutorial/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariiamlyuzan/github-tutorial/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "img-loader": "^4.0.0",
+    "infinite-scroll": "^4.0.1",
+    "masonry-layout": "^4.2.2"
+  }
+}
